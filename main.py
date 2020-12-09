@@ -19,8 +19,5 @@ def extract(file):
     capture.release()
     cv2.destroyAllWindows()
     
-def main():
-    file = input(r"Please enter the path of the video (Example: C:\Users\user\Videos\video.mp4): ")
-    extract(file)
-
-main()
+file = input(r"Please enter the path of the video (Example: C:\Users\user\Videos\video.mp4): ")
+extract(file)
